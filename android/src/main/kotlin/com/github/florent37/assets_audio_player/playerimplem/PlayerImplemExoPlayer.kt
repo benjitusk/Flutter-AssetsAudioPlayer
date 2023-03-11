@@ -44,7 +44,7 @@ class PlayerImplemTesterExoPlayer(private val type: Type) : PlayerImplemTester {
             Log.d("PlayerImplem", "trying to open with exoplayer($type)")
         }
         //some type are only for web
-        if (configuration.audioType != Player.AUDIO_TYPE_LIVESTREAM && configuration.audioType != Player.AUDIO_TYPE_LIVESTREAM) {
+        if (configuration.audioType != Player.AUDIO_TYPE_LIVESTREAM && configuration.audioType != Player.AUDIO_TYPE_NETWORK) {
             if (type == Type.HLS || type == Type.DASH || type == Type.SmoothStreaming) {
                 throw IncompatibleException(configuration.audioType, type)
             }
