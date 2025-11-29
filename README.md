@@ -24,7 +24,7 @@ flutter:
 ```Dart
 AssetsAudioPlayer.newPlayer().open(
     Audio("assets/audios/song1.mp3"),
-    autoPlay: true,
+    autoStart: true,
     showNotification: true,
 );
 ```
@@ -36,19 +36,10 @@ AssetsAudioPlayer.newPlayer().open(
 
 ```yaml
 dependencies:
-  assets_audio_player: ^3.0.6
-
-or
-
-assets_audio_player:
-git:
-url: https://github.com/florent37/Flutter-AssetsAudioPlayer.git
-ref: master
-
-ref can be latest commit id.
+  assets_audio_player: ^3.0.8
 ```
 
-**Works with `flutter: ">=1.12.13+hotfix.6 <2.0.0"`, be sure to upgrade your sdk**
+**Works with `flutter: ">=3.3.0"`, be sure to upgrade your sdk**
 
 You like the package ? buy me a kofi :)
 

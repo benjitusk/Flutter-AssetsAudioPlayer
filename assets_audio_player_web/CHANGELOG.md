@@ -1,3 +1,23 @@
+## 3.1.1
+
+- fix startup crash issue for some Android devices.
+
+## 3.1.0
+
+- revert back changes
+
+## 3.0.9
+
+- fix notification package naming and build issue
+
+## 3.0.8
+
+- fix warnings
+
+## 3.0.7
+
+- Update dependencies and fix notification issue
+
 ## 3.0.6
 
 - Update kotling version and fix minor issues
